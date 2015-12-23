@@ -1,0 +1,29 @@
+[user]
+    name = Derek Straka
+    email = derek@asterius.io
+
+[core]
+    excludesfile = ~/.gitignore_global
+    whitespace = trailing-space,tab-in-indent
+
+[rerere]
+    enabled = true
+
+[sendemail]
+    smtpserver = smtp.asterius.io
+    smtpserverport = 587
+    smtpencryption = tls
+    smtpuser = derek@asterius.io
+    chainreplyto = false
+
+[diff]
+    renames = true
+
+[push]
+    default = simple
+
+[credential "https://github.com"]
+    username = derekstraka
+
+[color]
+    ui = auto

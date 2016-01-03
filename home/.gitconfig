@@ -10,10 +10,10 @@
     enabled = true
 
 [sendemail]
-    smtpserver = smtp.asterius.io
+    smtpserver = smtp.gmail.com
     smtpserverport = 587
     smtpencryption = tls
-    smtpuser = derek@asterius.io
+    smtpuser = straka.derek@gmail.com
     chainreplyto = false
 
 [diff]
